@@ -1,0 +1,104 @@
+/* @media all and (max-width:1500px){
+}*/
+
+/* @media all and (max-width:1300px) and (orientation: portrait){
+    html{
+        overflow: hidden;
+    }
+    #mainNav{
+        height: 8vh;
+    }
+    #Content{
+        height: 82vh;
+        padding-top: 25vh;
+    }
+    #Footer{
+        padding-top: 5vh;
+        height: 18vh;
+    }
+} */
+
+@media all and (max-width:900px){
+    .md-title{
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width:767px){
+    /* for mobile */
+    #Content{
+        height: 219vw;
+        margin-top: 13vw;
+        padding-top: 10vw;
+        padding-left: 0vw;
+        padding-right: 0vw;
+        text-align: center;
+    }
+    .title{
+        height: 10vw;
+        margin-bottom: 4vw;
+        display: block;
+    }
+    .title .line{
+        display: none;
+    }
+    .title .lg-title{
+        margin-left: 0;
+        font-size: 3.5rem;
+    }
+
+    .steps{
+        display: block;
+        text-align: center;
+    }
+    .steps .md-title{
+        font-size: 3rem;
+    }
+    .block{
+        display: inline-block;
+        width: 100%;
+        height: 65vw;
+        padding-top: 10vw;
+        text-align: center;
+    }
+    .block-dark{
+        background-color: rgba(196, 196, 196, 0.4);
+    }
+    .block .step-indicator{
+        margin: 0 35vw;
+        height: 10vw;
+        color: white;
+        margin-bottom: 5vw;
+    }
+    .block .step-indicator .md-title{
+        line-height: 10vw;
+    }
+    .block .dl-link{
+        width: 100%;
+        height: 15vw;
+        display: inline-block;
+    }
+    .next-block{
+        display: none;
+    }
+    .green-icon{
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        width: 100%;
+        height: 10vw;
+        display: inline-block;
+    }
+}
+@media all and (max-width:539px){
+    #Content{
+        height: 227vw;
+        margin-top: 13vw;
+        padding-top: 15vw;
+    }
+    .title{
+        margin-bottom: 6vw;
+        display: block;
+    }
+}
+/* @media all and (min-width:1501px){
+} */

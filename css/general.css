@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+html, body{
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	letter-spacing: 4px;
+}
+
+.lg-text{
+	line-height: 2.2rem;
+}
+.nav-logo{
+	height: 3.8rem;
+}
+
+#Footer{
+	font-weight: lighter;
+	background-color: #211e1e;
+	width: 100%;
+	height: 18vw;
+	padding-top: 4vw;
+	color: white;
+	z-index: 99;
+}
+#Footer .mobile{
+	display: none;
+}
+#Footer .contact-btns{
+	margin-top: 4vw;
+	margin-left: 2vw;
+	opacity: 60%;
+}
+#Footer .footer-btn{
+	margin-left: 3vw;
+	text-decoration: none;
+	color: white;
+}
+#Footer .right-stuff{
+	position: relative;
+	top: -4vw;
+	margin-right: 5vw;
+	text-align: right;
+	opacity: 60%;
+}
+#Footer .icon1{
+	background-image: url("../img/social/linkedin_icon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 4vw;
+	height: 4vw;
+	margin-right: 2vw;
+	display: inline-block;
+}
+#Footer .icon2{
+	background-image: url("../img/social/twitter_icon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 4vw;
+	height: 4vw;
+	display: inline-block;
+}
+#Footer .md-text{
+	margin-top: 1vw;
+}

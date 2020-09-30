@@ -1,0 +1,82 @@
+#mainNav{
+    background-color:#022142;
+}
+
+#Content{
+	background-image: url("../../img/homepage/bg1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+    height: 70vw;
+    margin-top: 80px;
+    padding-top: 11vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    text-align: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10vw;
+}
+.title .line{
+    background-color: #022142;
+    width: 1.5vw;
+    height: 4vw;
+    display: inline-block;
+}
+.title .lg-title{
+    font-weight: bold;
+    margin-left: 2vw;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.steps{
+    display: flex;
+    align-items: center;
+}
+.block{
+    width: 20vw;
+    height: 30vw;
+    text-align: center;
+}
+.block .step-indicator{
+    background-color: #c9ac82;
+    margin: 0 3vw;
+    height: 5vw;
+    color: white;
+    margin-bottom: 5vw;
+}
+.block .step-indicator .md-title{
+    line-height: 5vw;
+}
+.block .dl-link{
+    background-image: url("../../img/download/google_play.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 20vw;
+    height: 7vw;
+    display: inline-block;
+}
+.next-block{
+    background-image: url("../../img/download/arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2vw;
+    width: 4vw;
+    height: 4rem;
+}
+.green-icon{
+    background-image: url("../../img/download/tick.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 9vw;
+    margin-bottom: 2vw;
+    width: 20vw;
+    height: 4rem;
+    display: block;
+}
