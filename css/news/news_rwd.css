@@ -1,0 +1,22 @@
+/* @media all and (max-width:1500px){
+}
+
+@media all and (max-width:1300px){
+} */
+
+/* @media all and (max-width: 900px) {
+} */
+
+@media all and (max-width: 767px) {
+  /* for mobile */
+  #Title {
+    margin-top: 13vw;
+  }
+}
+@media all and (max-width: 539px) {
+  #Title {
+    margin-top: 18vw;
+  }
+}
+/* @media all and (min-width:1501px){
+} */
