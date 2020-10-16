@@ -23,10 +23,9 @@ body {
 
 #Main {
   background-image: url("../../img/faq/bg1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   width: 100%;
-  padding: 3vw 10vw;
+  padding: 5vw 15vw;
 }
 #Main .q-cat {
   font-weight: bold;
@@ -64,6 +63,7 @@ body {
 }
 #Main .item .answer {
   padding: 15px;
+  padding-bottom: 5vh;
   display: none;
 }
 #Main .item .faq-img {
